@@ -1,0 +1,44 @@
+[
+  {
+    "failure_id": "F-CONTINUITY-001",
+    "name": "镜头间位置或状态被重置",
+    "triggers": ["连续镜头", "多段视频", "首尾衔接"],
+    "required_checks": ["前镜end_state等于后镜start_state"],
+    "block_if_failed": true
+  },
+  {
+    "failure_id": "F-TACTIC-001",
+    "name": "战斗路线过直或只有左右对打",
+    "triggers": ["双人打斗", "连续攻击"],
+    "required_checks": ["路线至少包含一次纵深或高低变化", "普通双人中景不连续使用"],
+    "block_if_failed": true
+  },
+  {
+    "failure_id": "F-MOTIVE-001",
+    "name": "开战契机或角色目标缺失",
+    "triggers": ["遭遇", "冲突", "战斗开始"],
+    "required_checks": ["story_trigger非空", "双方目标非空"],
+    "block_if_failed": true
+  },
+  {
+    "failure_id": "F-SCALE-001",
+    "name": "大型法器缺少释放距离和尺度过程",
+    "triggers": ["巨大化", "大型法器", "范围攻击"],
+    "required_checks": ["释放距离已验证", "离手与放大过程明确", "人物尺度参照存在"],
+    "block_if_failed": true
+  },
+  {
+    "failure_id": "F-CONTACT-001",
+    "name": "法器未实体接触或碰撞后粘连",
+    "triggers": ["碰撞", "格挡", "对撞"],
+    "required_checks": ["接触前无撞击特效", "实体轮廓接触", "力量传递后按设计分离或持续承压"],
+    "block_if_failed": true
+  },
+  {
+    "failure_id": "F-TERM-001",
+    "name": "锁定资产被换名",
+    "triggers": ["已确认资产"],
+    "required_checks": ["只使用canonical_name", "禁用别名未出现"],
+    "block_if_failed": true
+  }
+]

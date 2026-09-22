@@ -1,0 +1,24 @@
+{
+  "status": "BLOCKED",
+  "time_unit": "seconds",
+  "exchanges": [
+    {
+      "exchange_id": "EX01",
+      "attacker": "",
+      "defender": "",
+      "attack_start": 0.0,
+      "defender_perception": 0.0,
+      "defense_start": 0.0,
+      "contact": {
+        "attack_time": 0.0,
+        "defense_time": 0.0,
+        "attack_location": "",
+        "defense_location": "",
+        "physical_contact_visible": false
+      },
+      "force_transfer": 0.0,
+      "defender_reaction": 0.0,
+      "environment_reaction": 0.0
+    }
+  ]
+}

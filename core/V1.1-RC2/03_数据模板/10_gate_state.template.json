@@ -1,0 +1,13 @@
+{
+  "pipeline_version": "1.1.0-rc.2",
+  "stages": {
+    "S1_DIRECTOR": {"status": "PENDING", "evidence": "02_director_precheck.json"},
+    "S2_EXPANSION": {"status": "PENDING", "evidence": "03_action_expansion.json"},
+    "S3_ASSET": {"status": "PENDING", "evidence": "01_user_input.json"},
+    "S4_SPACE": {"status": "PENDING", "evidence": "04_world_state_ledger.json + 06_dispatch_plan.json"},
+    "S5_INTERACTION": {"status": "PENDING", "evidence": "05_interaction_timeline.json + 08_tactical_emotional_arc.json"},
+    "S6_CAMERA": {"status": "PENDING", "evidence": "11_prompt_draft.md"},
+    "S7_REVIEW": {"status": "PENDING", "evidence": "07_failure_matches.json + 09_adversarial_review.json"},
+    "S8_GENERATION": {"status": "PENDING", "evidence": "all previous gates"}
+  }
+}

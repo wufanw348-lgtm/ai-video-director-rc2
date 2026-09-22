@@ -1,0 +1,12 @@
+{
+  "status": "BLOCKED",
+  "plan_session_id": "",
+  "story_trigger": "",
+  "protagonist_goal": "",
+  "opponent_goal": "",
+  "protagonist_reaction": "",
+  "dramatic_change": "",
+  "viewer_information": "",
+  "blocking_issues": ["等待AI导演预检"],
+  "questions_for_user": []
+}

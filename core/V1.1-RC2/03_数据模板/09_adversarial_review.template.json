@@ -1,0 +1,16 @@
+{
+  "status": "BLOCKED",
+  "reviewer_role": "independent_adversarial_reviewer",
+  "review_session_id": "",
+  "findings": [],
+  "hard_failures": ["等待独立反方审查"],
+  "checks": {
+    "expansion_compliance": false,
+    "attack_defense_synchronized": false,
+    "contact_visible": false,
+    "force_order_valid": false,
+    "tactical_emotional_progression": false,
+    "state_continuity": false,
+    "asset_terms_locked": false
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "required": true,
+  "status": "PENDING_USER",
+  "source_action_density": "thin",
+  "reason": "原文动作不足以支撑目标时长或关键战斗表达",
+  "original_beats": [],
+  "proposed_beats": [],
+  "preserved_facts": [],
+  "user_decision": ""
+}

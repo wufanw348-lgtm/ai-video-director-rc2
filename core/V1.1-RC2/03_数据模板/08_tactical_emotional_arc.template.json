@@ -1,0 +1,17 @@
+{
+  "status": "BLOCKED",
+  "pattern": "",
+  "progression_verified": false,
+  "stages": [
+    {
+      "stage_id": "AR01",
+      "time_start": 0.0,
+      "time_end": 0.0,
+      "tactic": "",
+      "emotion": "",
+      "intensity": 1,
+      "change_cause": "",
+      "dramatic_function": ""
+    }
+  ]
+}

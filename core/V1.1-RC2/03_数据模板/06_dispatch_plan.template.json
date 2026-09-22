@@ -1,0 +1,13 @@
+{
+  "status": "BLOCKED",
+  "risk_level": "low",
+  "axis": "",
+  "actors": [],
+  "routes": [],
+  "route_dimensions": [],
+  "distance_checks": [],
+  "topology_complete": false,
+  "release_distance_verified": false,
+  "release_steps": [],
+  "scale_references": []
+}

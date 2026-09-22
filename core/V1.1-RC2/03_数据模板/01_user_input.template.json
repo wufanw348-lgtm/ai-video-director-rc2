@@ -1,0 +1,22 @@
+{
+  "project_id": "请填写项目编号",
+  "source_text": "请粘贴小说、剧本或当前动作段",
+  "target_model": "Seedance 2.5",
+  "clip_seconds": 10,
+  "is_action_scene": true,
+  "is_key_action_scene": true,
+  "action_detail_level": "thin",
+  "must_keep": [],
+  "preferences": "无，由系统决定",
+  "contains_large_scale_action": false,
+  "assets": [
+    {
+      "asset_id": "A001",
+      "canonical_name": "请填写资产标准名称",
+      "category": "character",
+      "status": "confirmed",
+      "reference": "请填写文件名或链接",
+      "forbidden_output_aliases": []
+    }
+  ]
+}

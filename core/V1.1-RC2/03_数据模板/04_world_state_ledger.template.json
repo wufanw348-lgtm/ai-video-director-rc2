@@ -1,0 +1,10 @@
+{
+  "status": "BLOCKED",
+  "shots": [
+    {
+      "shot_id": "SH01",
+      "start_state": {},
+      "end_state": {}
+    }
+  ]
+}
